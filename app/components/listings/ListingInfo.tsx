@@ -93,8 +93,19 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
       text-lg font-light text-neutral-500">
         {description}
       </div>
-      <p className="gap-2">RATES: Weekend Daily Rate (Fri-Sun): $350 a night Weekday Daily Rate (Mon-Thur): $300 a night Stay a week and save!! Weekly Rate (Mon-Sun): $1,800 Cleaning Fee: $150 ** Will accommodate Early Check-ins when possible 
-        (9:00AM). Late Check-out 12:00PM ** Ask about our Discounts. Send email or text for more information to: lbgvisual@gmail.com or Laura Vela @ (956) 459-7743</p>
+      <div>
+  <p className="gap-2"><strong>RATES:</strong></p>
+  <ul>
+    <li>Weekend Daily Rate (Fri-Sun): $350 per night</li>
+    <li>Weekday Daily Rate (Mon-Thur): $300 per night</li>
+    <li>Stay a week and save!! Weekly Rate (Mon-Sun): $1,800</li>
+  </ul>
+  <p><strong>Cleaning Fee: $150</strong></p>
+  <p><strong>Check-in & Check-out:</strong> We will do our best to accommodate early check-ins (9:00 AM) when possible. Late check-out is available until 12:00 PM.</p>
+  <p><strong>Ask about our Discounts:</strong> For more information, please contact us via email or text:</p>
+  <p>Email: lbgvisual@gmail.com</p>
+  <p>Phone: Laura Vela @ (956) 459-7743</p>
+</div>
       <hr />
       
     </div>
